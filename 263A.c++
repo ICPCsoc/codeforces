@@ -2,19 +2,15 @@
 
 using namespace std;
 
-int main (void) {
-    int a[5][5];
-    int row, col;
+int main() {
+    int a;
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {
-            cin >> a[i][j];
-            if (a[i][j] == 1) {
-                row = i;
-                col = j;
+            cin >> a;
+            if (a == 1) {
+                cout << abs(i - 2) + abs(j - 2);
             }
         }
     }
-    int steps = abs(row - 2) + abs(col - 2);
-    cout << steps << endl;
     return 0;
 }
