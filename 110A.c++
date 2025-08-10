@@ -20,7 +20,7 @@ int main (void) {
     }
 
     while (d > 0) {
-        int e = x % 10;
+        int e = d % 10;
         if (e != 4 && d != 7) {
             cout << "NO\n";
             return 0;
