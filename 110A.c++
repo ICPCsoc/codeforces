@@ -5,7 +5,6 @@ using namespace std;
 int main (void) {
     long long a;
     cin >> a;
-
     int sum = 0;
     long long b = a;
     while (b > 0) {
@@ -18,7 +17,6 @@ int main (void) {
         cout << "NO\n";
         return 0;
     }
-
     while (d > 0) {
         int e = d % 10;
         if (e != 4 && d != 7) {
