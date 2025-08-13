@@ -16,7 +16,11 @@ int main (void) {
             e = i + 1;
         }
     }
-    if (b == 1) cout << d;
-    else cout << e;
+    if (b == 1) {
+        cout << d;
+    }
+    else {
+        cout << e;
+    }
     return 0;
 }
