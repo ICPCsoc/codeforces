@@ -7,10 +7,6 @@ int main (void) {
     cin >> m;
     string s;
     cin >> s;
-    if ((int)s.size() != m) {
-        cout << "NO" << endl;
-        return 0;
-    }
     vector<int> n;
     for (int i = 0; i < m; i++) {
         if (s[i] == '1') {
